@@ -370,7 +370,7 @@ export default function LernstandstestApp() {
   const totalTasks = useMemo(() => sections.reduce((sum, section) => sum + section.tasks.length, 0), [sections]);
   const answeredCount = Object.values(answers).filter((value) => String(value).trim() !== "").length;
   const progress = Math.round((answeredCount / totalTasks) * 100);
-  const selfTests = [];
+  const selfTests = { passed: 0, total: 0, tests: [] };
 
   function startTest() {
     const freshSections = createSections();
