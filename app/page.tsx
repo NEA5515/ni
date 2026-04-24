@@ -371,7 +371,6 @@ export default function LernstandstestApp() {
   const answeredCount = Object.values(answers).filter((value) => String(value).trim() !== "").length;
   const progress = Math.round((answeredCount / totalTasks) * 100);
   const selfTests = { passed: 0, total: 0, tests: [] };
-
   function startTest() {
     const freshSections = createSections();
     setSections(freshSections);
