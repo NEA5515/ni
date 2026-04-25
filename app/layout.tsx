@@ -21,11 +21,10 @@ export const metadata = {
   openGraph: {
     title: "Niclas Lernstandstest Grundrechenarten",
     description: "Interaktiver Lernstandstest für Kinder.",
-    url: "https://ni-two-kappa.vercel.app",
     siteName: "Niclas Lernstandstest",
     images: [
       {
-        url: "https://ni-two-kappa.vercel.app/preview.jpg",
+        url: "https://ni-two-kappa.vercel.app/preview-v2.jpg",
         width: 1200,
         height: 630,
         alt: "Niclas Lernstandstest",
@@ -38,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Niclas Lernstandstest Grundrechenarten",
     description: "Teste dein Können in den Grundrechenarten.",
-    images: ["https://ni-two-kappa.vercel.app/preview.jpg"],
+    images: ["https://ni-two-kappa.vercel.app/preview-v2.jpg"],
   },
 };
 
