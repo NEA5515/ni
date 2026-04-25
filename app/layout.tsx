@@ -1,3 +1,6 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://ni-two-kappa.vercel.app"),
   title: "Niclas Lernstandstest Grundrechenarten",
@@ -5,7 +8,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Niclas Lernstandstest Grundrechenarten",
     description: "Interaktiver Lernstandstest für Kinder.",
-    siteName: "Niclas Lernstandstest",
     images: [
       {
         url: "https://ni-two-kappa.vercel.app/preview-v2.jpg",
@@ -23,3 +25,15 @@ export const metadata: Metadata = {
     images: ["https://ni-two-kappa.vercel.app/preview-v2.jpg"],
   },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="de">
+      <body>{children}</body>
+    </html>
+  );
+}
