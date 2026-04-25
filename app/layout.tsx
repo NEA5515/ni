@@ -25,7 +25,7 @@ export const metadata = {
     siteName: "Niclas Lernstandstest",
     images: [
       {
-        url: "https://ni-two-kappa.vercel.app/preview.png",
+        url: "https://ni-two-kappa.vercel.app/preview.jpg",
         width: 1200,
         height: 630,
         alt: "Niclas Lernstandstest",
@@ -38,7 +38,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Niclas Lernstandstest Grundrechenarten",
     description: "Teste dein Können in den Grundrechenarten.",
-    images: ["https://ni-two-kappa.vercel.app/preview.png"],
+    images: ["https://ni-two-kappa.vercel.app/preview.jpg"],
   },
 };
 
