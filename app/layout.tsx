@@ -14,25 +14,31 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   metadataBase: new URL("https://ni-two-kappa.vercel.app"),
+
   title: "Niclas Lernstandstest Grundrechenarten",
   description: "Teste dein Können in Addition, Subtraktion, Multiplikation und Division.",
+
   openGraph: {
     title: "Niclas Lernstandstest Grundrechenarten",
     description: "Interaktiver Lernstandstest für Kinder.",
+    url: "https://ni-two-kappa.vercel.app",
+    siteName: "Niclas Lernstandstest",
     images: [
       {
-        url: "/preview.png",
+        url: "https://ni-two-kappa.vercel.app/preview.png",
         width: 1200,
         height: 630,
-        alt: "Niclas Lernstandstest Grundrechenarten",
+        alt: "Niclas Lernstandstest",
       },
     ],
+    type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Niclas Lernstandstest Grundrechenarten",
     description: "Teste dein Können in den Grundrechenarten.",
-    images: ["/preview.png"],
+    images: ["https://ni-two-kappa.vercel.app/preview.png"],
   },
 };
 
